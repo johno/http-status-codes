@@ -1,6 +1,6 @@
-{{input value=filterQuery}}
+{{input value=filterQuery placeholder=placeholder}}
 
-<ul>
+<ul {{bindAttr class=listClass}}>
   {{#each object in filteredList}}
     <li>
       {{object.code}}

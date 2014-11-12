@@ -5,6 +5,8 @@ export default Ember.Component.extend({
   attributes: 'id',
   filterQuery: '',
   strictMatch: false,
+  listClass: '',
+  placeholder: 'Search...',
 
   filteredList: function() {
     var attrs = this.get('formattedAttributes');

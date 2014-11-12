@@ -1,9 +1,3 @@
-<ul>
-  {{#each}}
-    <li>
-      {{code}}
-      {{title}}
-    </li>
-  {{/each}}
-</ul>
+{{list-filter list=this attributes='code, title, summary' strictMatch=false}}
+
 {{outlet}}

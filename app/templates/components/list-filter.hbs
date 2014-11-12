@@ -1,0 +1,10 @@
+{{input value=filterQuery}}
+
+<ul>
+  {{#each object in filteredList}}
+    <li>
+      {{object.code}}
+      {{object.title}}
+    </li>
+  {{/each}}
+</ul>

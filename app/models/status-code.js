@@ -290,6 +290,76 @@ StatusCode.reopenClass({
     code: 499,
     title: 'Client Closed Request',
     summary: 'connection closed by client while HTTP server is processing'
+  }, {
+    id: 500,
+    code: 500,
+    title: 'Internal Server Error',
+    summary: 'generic error message',
+  }, {
+    id: 501,
+    code: 501,
+    title: 'Not Implemented',
+    summary: 'server does not recognise method or lacks ability to fulfill',
+  }, {
+    id: 502,
+    code: 502,
+    title: 'Bad Gateway',
+    summary: 'server received an invalid response from upstream server',
+  }, {
+    id: 503,
+    code: 503,
+    title: 'Service Unavailable',
+    summary: 'server is currently unavailable',
+  }, {
+    id: 504,
+    code: 504,
+    title: 'Gateway Timeout',
+    summary: 'gateway did not receive response from upstream server',
+  }, {
+    id: 505,
+    code: 505,
+    title: 'HTTP Version Not Supported',
+    summary: 'server does not support the HTTP protocol version',
+  }, {
+    id: 506,
+    code: 506,
+    title: 'Variant Also Negotiates (RFC 2295)',
+    summary: 'content negotiation for the request results in a circular reference',
+  }, {
+    id: 507,
+    code: 507,
+    title: 'Insufficient Storage (WebDAV) (RFC 4918)',
+    summary: 'server is unable to store the representation',
+  }, {
+    id: 508,
+    code: 508,
+    title: 'Loop Detected (WebDAV) (RFC 5842)',
+    summary: 'server detected an infinite loop while processing the request',
+  }, {
+    id: 509,
+    code: 509,
+    title: 'Bandwidth Limit Exceeded (Apache bw\/limited extension)',
+    summary: 'bandwidth limit exceeded',
+  }, {
+    id: 510,
+    code: 510,
+    title: 'Not Extended (RFC 2774)',
+    summary: 'further extensions to the request are required',
+  }, {
+    id: 511,
+    code: 511,
+    title: 'Network Authentication Required',
+    summary: 'client needs to authenticate to gain network access',
+  }, {
+    id: 598,
+    code: 598,
+    title: 'Network read timeout error',
+    summary: 'network read timeout behind the proxy ',
+  }, {
+    id: 599,
+    code: 599,
+    title: 'Network connect timeout error',
+    summary: 'network connect timeout behind the proxy',
   }]
 });
 

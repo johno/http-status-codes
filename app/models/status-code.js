@@ -169,6 +169,7 @@ StatusCode.reopenClass({
     id: 407,
     code: 407,
     title: 'Proxy Authentication Required',
+    summary: 'Client must first authenticate itself with the proxy'
   }, {
     id: 408,
     code: 408,

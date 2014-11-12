@@ -7,6 +7,7 @@ export default Ember.Component.extend({
   strictMatch: false,
   listClass: '',
   placeholder: 'Search...',
+  autofocus: false,
 
   filteredList: function() {
     var attrs = this.get('formattedAttributes');

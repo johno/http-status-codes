@@ -1,0 +1,81 @@
+{
+  "name": "johnotander/http-status-codes",
+  "version": "0.1.3",
+  "libraries": {
+    "xv": "^1.0.27"
+  },
+  "title": "http-status-codes",
+  "branch": "",
+  "style": {
+    "name": "Brutalist",
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#777",
+      "secondary": "#ccc",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav/AbsoluteNav",
+      "links": [
+        {
+          "href": "http://http-status-codes.divshot.io/",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/johnotander/http-status-codes",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/http-status-codes",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header/BannerHeader",
+      "heading": "http-status-codes",
+      "subhead": "A mini-ember app that provides a searchable/filterable list for all HTTP Status Codes.",
+      "links": [
+        {
+          "text": "Tweet",
+          "href": "https://twitter.com/intent/tweet?text=http-status-codes%253A%2520A%2520mini-ember%2520app%2520that%2520provides%2520a%2520searchable%252Ffilterable%2520list%2520for%2520all%2520HTTP%2520Status%2520Codes.&url=http%253A%252F%252Fhttp-status-codes.divshot.io%252F"
+        }
+      ],
+      "text": "v0.0.0"
+    },
+    {
+      "component": "article/BasicArticle",
+      "text": "<h1 id=\"http-status-codes\">HTTP Status Codes</h1>\n<p>This is a mini-Ember app that provides a searchable/filterable list for HTTP Status Codes.</p>\n<h2 id=\"prerequisites\">Prerequisites</h2>\n<p>You will need the following things properly installed on your computer.</p>\n<ul>\n<li><a href=\"http://git-scm.com/\">Git</a></li>\n<li><a href=\"http://nodejs.org/\">Node.js</a> (with NPM) and <a href=\"http://bower.io/\">Bower</a></li>\n</ul>\n<h2 id=\"installation\">Installation</h2>\n<ul>\n<li><code>git clone &lt;repository-url&gt;</code> this repository</li>\n<li>change into the new directory</li>\n<li><code>npm install</code></li>\n<li><code>bower install</code></li>\n</ul>\n<h2 id=\"running-development\">Running / Development</h2>\n<ul>\n<li><code>ember server</code></li>\n<li>Visit your app at <a href=\"http://localhost:4200\">http://localhost:4200</a>.</li>\n</ul>\n<h3 id=\"code-generators\">Code Generators</h3>\n<p>Make use of the many generators for code, try <code>ember help generate</code> for more details</p>\n<h3 id=\"running-tests\">Running Tests</h3>\n<ul>\n<li><code>ember test</code></li>\n<li><code>ember test --server</code></li>\n</ul>\n<h3 id=\"building\">Building</h3>\n<ul>\n<li><code>ember build</code> (development)</li>\n<li><code>ember build --environment production</code> (production)</li>\n</ul>\n<h3 id=\"deploying\">Deploying</h3>\n<p>This project uses the <code>ember-cli-divshot</code> plugin. Deploying the app requires the following command:</p>\n<pre><code>ember divshot push\n</code></pre><h2 id=\"further-reading-useful-links\">Further Reading / Useful Links</h2>\n<ul>\n<li>ember: <a href=\"http://emberjs.com/\">http://emberjs.com/</a></li>\n<li>ember-cli: <a href=\"http://www.ember-cli.com/\">http://www.ember-cli.com/</a></li>\n<li>Development Browser Extensions<ul>\n<li><a href=\"https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi\">ember inspector for chrome</a></li>\n<li><a href=\"https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/\">ember inspector for firefox</a></li>\n</ul>\n</li>\n</ul>\n<h2 id=\"acknowledgements\">Acknowledgements</h2>\n<p>HTTP Status Code data adapted from <a href=\"https://github.com/citricsquid/httpstatus.es\">https://github.com/citricsquid/httpstatus.es</a>.</p>\n<h2 id=\"license\">License</h2>\n<p>MIT</p>\n<h2 id=\"contributing\">Contributing</h2>\n<ol>\n<li>Fork it</li>\n<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>\n<li>Commit your changes (<code>git commit -am &apos;Add some feature&apos;</code>)</li>\n<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>\n<li>Create new Pull Request</li>\n</ol>\n<p>Crafted with &lt;3 by <a href=\"http://johnotander.com\">John Otander</a> (<a href=\"https://twitter.com/4lpine\">@4lpine</a>).</p>\n",
+      "html": "<h1 id=\"http-status-codes\">HTTP Status Codes</h1>\n<p>This is a mini-Ember app that provides a searchable/filterable list for HTTP Status Codes.</p>\n<h2 id=\"prerequisites\">Prerequisites</h2>\n<p>You will need the following things properly installed on your computer.</p>\n<ul>\n<li><a href=\"http://git-scm.com/\">Git</a></li>\n<li><a href=\"http://nodejs.org/\">Node.js</a> (with NPM) and <a href=\"http://bower.io/\">Bower</a></li>\n</ul>\n<h2 id=\"installation\">Installation</h2>\n<ul>\n<li><code>git clone &lt;repository-url&gt;</code> this repository</li>\n<li>change into the new directory</li>\n<li><code>npm install</code></li>\n<li><code>bower install</code></li>\n</ul>\n<h2 id=\"running-development\">Running / Development</h2>\n<ul>\n<li><code>ember server</code></li>\n<li>Visit your app at <a href=\"http://localhost:4200\">http://localhost:4200</a>.</li>\n</ul>\n<h3 id=\"code-generators\">Code Generators</h3>\n<p>Make use of the many generators for code, try <code>ember help generate</code> for more details</p>\n<h3 id=\"running-tests\">Running Tests</h3>\n<ul>\n<li><code>ember test</code></li>\n<li><code>ember test --server</code></li>\n</ul>\n<h3 id=\"building\">Building</h3>\n<ul>\n<li><code>ember build</code> (development)</li>\n<li><code>ember build --environment production</code> (production)</li>\n</ul>\n<h3 id=\"deploying\">Deploying</h3>\n<p>This project uses the <code>ember-cli-divshot</code> plugin. Deploying the app requires the following command:</p>\n<pre><code>ember divshot push\n</code></pre><h2 id=\"further-reading-useful-links\">Further Reading / Useful Links</h2>\n<ul>\n<li>ember: <a href=\"http://emberjs.com/\">http://emberjs.com/</a></li>\n<li>ember-cli: <a href=\"http://www.ember-cli.com/\">http://www.ember-cli.com/</a></li>\n<li>Development Browser Extensions<ul>\n<li><a href=\"https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi\">ember inspector for chrome</a></li>\n<li><a href=\"https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/\">ember inspector for firefox</a></li>\n</ul>\n</li>\n</ul>\n<h2 id=\"acknowledgements\">Acknowledgements</h2>\n<p>HTTP Status Code data adapted from <a href=\"https://github.com/citricsquid/httpstatus.es\">https://github.com/citricsquid/httpstatus.es</a>.</p>\n<h2 id=\"license\">License</h2>\n<p>MIT</p>\n<h2 id=\"contributing\">Contributing</h2>\n<ol>\n<li>Fork it</li>\n<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>\n<li>Commit your changes (<code>git commit -am &apos;Add some feature&apos;</code>)</li>\n<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>\n<li>Create new Pull Request</li>\n</ol>\n<p>Crafted with &lt;3 by <a href=\"http://johnotander.com\">John Otander</a> (<a href=\"https://twitter.com/4lpine\">@4lpine</a>).</p>\n"
+    },
+    {
+      "component": "footer/BasicFooter",
+      "links": [
+        {
+          "href": "https://github.com/johnotander/http-status-codes",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/johnotander",
+          "text": "johnotander"
+        }
+      ]
+    }
+  ]
+}
